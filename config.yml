@@ -21,7 +21,7 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-mysql-k8s
-    ref: 'master'
+    ref: 'main'
   directory: tanzu-mysql-kubernetes/1-n
   subnav_template: mysql_k8s_subnav_1_n.erb
   product_info:
