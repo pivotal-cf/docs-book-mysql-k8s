@@ -27,7 +27,7 @@ sections:
   product_info:
     use_local_header: true
     latest_stable_version: 1.0
-    # changelog_href: http://docs.pivotal.io/tanzu-mysql-kubernetes/1-n/release-notes.html
+    changelog_href: http://docs.pivotal.io/tanzu-mysql-kubernetes/1-n/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: VMware Tanzu™ SQL with MySQL for Kubernetes
     search_placeholder: Tanzu MySQL for Kubernetes 1.0
