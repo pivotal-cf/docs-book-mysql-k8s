@@ -1,4 +1,4 @@
-book_repo: pivotal-cf/docs-book-mysql
+book_repo: pivotal-cf/docs-book-mysql-k8s
 layout_repo: pivotal-cf/docs-layout-repo
 layout_repo_ref: 'edge'
 
