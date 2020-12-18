@@ -41,6 +41,7 @@ Each version of VMware Tanzu SQL [MySQL] has its own book branch:
 | Branch name | Use for… |
 |-------------| -------|
 | main      | "edge" branch for 1.x, publishes to http://docs-pcf-staging.cfapps.io//tanzu-mysql-kubernetes/1-n/|
+| 0.1      | v0.1.x beta, publishes to http://docs-pcf-staging.cfapps.io//tanzu-mysql-kubernetes/0-1/|
 
 ## The Docs Toolchain
 
