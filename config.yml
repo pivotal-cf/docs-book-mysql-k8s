@@ -25,7 +25,7 @@ sections:
   directory: tanzu-mysql-kubernetes/1-n
   subnav_template: mysql_k8s_subnav_1_n.erb
   product_info:
-    use_local_header: false
+    use_local_header: true
     latest_stable_version: 1.0
     changelog_href: http://docs.pivotal.io/tanzu-mysql-kubernetes/1-n/release-notes.html
     local_header_img: /images/cloud_rings.png
