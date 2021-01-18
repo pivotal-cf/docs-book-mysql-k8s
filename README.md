@@ -137,3 +137,10 @@ or on the branch corresponding to its version number.
   ```
 
   `ref: '225'` refers to the 225 branch of the docs-cloudfoundry-concepts repo. Cloud Foundry v225 is associated with the PCF v1.6 release.
+
+## Winston App Pusher settings
+Here is a quick reference to the changes needed if using [Winston: the Cloud Foundry App Pusher](https://github.com/pivotal-cf-experimental/docs-utility-scripts/tree/master/winston-the-app-pusher) to deploy the app:
+
+VERSION="0-2"
+APP_NAME="mysql-k8s-${VERSION}"
+URL="tanzu-mysql-kubernetes/${VERSION}"
