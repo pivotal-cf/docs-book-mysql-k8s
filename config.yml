@@ -1,6 +1,6 @@
 book_repo: pivotal-cf/docs-book-mysql-k8s
 layout_repo: pivotal-cf/docs-layout-repo
-layout_repo_ref: 'edge'
+layout_repo_ref: 'master'
 
 feedback_enabled: true
 
@@ -21,17 +21,19 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-mysql-k8s
-    ref: 'main'
-  directory: tanzu-mysql-kubernetes/1-n
-  subnav_template: mysql_k8s_subnav_1_n.erb
+    ref: '0.2'
+  directory: tanzu-mysql-kubernetes/0-2
+  subnav_template: mysql_k8s_subnav_0_2.erb
   product_info:
     use_local_header: true
-    latest_stable_version: 1.0
-    changelog_href: http://docs.pivotal.io/tanzu-mysql-kubernetes/1-n/release-notes.html
+    latest_stable_version: 0.2
+    changelog_href: http://docs.pivotal.io/tanzu-mysql-kubernetes/0-2/release-notes.html
     local_header_img: /images/cloud_rings.png
     local_header_title: VMware Tanzu™ SQL with MySQL for Kubernetes
-    search_placeholder: Tanzu MySQL for Kubernetes 1.0
-    url_prefix: tanzu-mysql-kubernetes/1-n
-    local_product_version: '1.0'
+    search_placeholder: Tanzu MySQL for Kubernetes (Beta) v0.2
+    url_prefix: tanzu-mysql-kubernetes/0-2
+    local_product_version: '0.2'
     local_header_links: []
-    local_header_version_list: []
+    local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/tanzu-mysql-kubernetes/0-1
+        display_name: 0.1
