@@ -33,4 +33,6 @@ sections:
     url_prefix: tanzu-mysql-kubernetes/0-1
     local_product_version: '0.1'
     local_header_links: []
-    local_header_version_list: []
+    local_header_version_list:
+      - url_prefix: http://docs.pivotal.io/tanzu-mysql-kubernetes/0-2
+        display_name: 0.2
