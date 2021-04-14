@@ -38,8 +38,9 @@ Each version of VMware Tanzu SQL [MySQL] has its own book branch:
 | Branch name | Use for… |
 |-------------| -------|
 | main      | "edge" branch for 1.x, publishes to http://docs-pcf-staging.cfapps.io/tanzu-mysql-kubernetes/1-n/|
-| 0.1      | v0.1.x beta, publishes to http://docs.pivotal.io/tanzu-mysql-kubernetes/0-1/|
+| 1.0      | v1.0 GA, publishes to http://docs.pivotal.io/tanzu-mysql-kubernetes/1-0/ This app must be `cf push`-ed manually. No concourse jobs or CI as of 2021.04.15.|
 | 0.2      | v0.2.x beta, publishes to http://docs.pivotal.io/tanzu-mysql-kubernetes/0-2/|
+| 0.1      | v0.1.x beta, publishes to http://docs.pivotal.io/tanzu-mysql-kubernetes/0-1/|
 
 ## The Docs Toolchain
 
