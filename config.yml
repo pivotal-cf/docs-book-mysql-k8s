@@ -31,7 +31,7 @@ sections:
     local_header_img: /images/cloud_rings.png
     local_header_title: VMware Tanzu™ SQL with MySQL for Kubernetes
     search_placeholder: Tanzu SQL for Kubernetes 1.1
-    url_prefix: tanzu-mysql-kubernetes/1-n
+    url_prefix: tanzu-mysql-kubernetes
     local_product_version: '1.1'
     local_header_links: []
     local_header_version_list: []
