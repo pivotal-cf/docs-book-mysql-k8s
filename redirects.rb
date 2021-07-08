@@ -4,5 +4,3 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 }
 
 r301 '/tanzu-mysql-kubernetes/1-n/bind-app.html', '/tanzu-mysql-kubernetes/1-n/connecting-apps.html'
-
-r301 %r{/tanzu-mysql-kubernetes/(?![\d-]+)(.*)}, "/tanzu-mysql-kubernetes/1-0/$1"
