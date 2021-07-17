@@ -19,13 +19,13 @@ common_header: &mysql_common
     local_header_links: []
 
     local_header_version_list:
-       - url_prefix: /1-1/
+       - url_prefix: /tanzu-mysql-kubernetes/1-1/
          display_name: v1.1
 
 mysql4k8s_header: &mysql4k8s_110
    <<: *mysql_common
    search_placeholder: Tanzu MySQL for Kubernetes 1.1
-   url_prefix: tanzu-mysql-kubernetes/1.1/
+   url_prefix: tanzu-mysql-kubernetes/1-1/
    local_product_version: '1.1'
    changelog_href: /tanzu-mysql-kubernetes/1-1/release-notes.html
 
