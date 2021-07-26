@@ -22,7 +22,7 @@ common_header: &mysql_common
        - url_prefix: /tanzu-mysql-kubernetes/1-1/
          display_name: v1.1
 
-mysql4k8s_header: &mysql4k8s_110
+mysql4k8s_header: &mysql4k8s_111
    <<: *mysql_common
    search_placeholder: Tanzu MySQL for Kubernetes 1.1
    url_prefix: tanzu-mysql-kubernetes/1-1/
@@ -42,7 +42,7 @@ sections:
     name: pivotal-cf/docs-mysql-k8s
     ref: 'main'
   directory: tanzu-mysql-kubernetes/1-1
-  subnav_template: mysql_k8s_subnav_1_n.erb
-  product_info: *mysql4k8s_110
+  subnav_template: mysql_k8s_subnav_1_1.erb
+  product_info: *mysql4k8s_111
   
   
