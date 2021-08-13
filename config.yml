@@ -13,7 +13,7 @@ elastic_search: true
 
 common_header: &mysql_common
     use_local_header: true
-    latest_stable_version: 1.0
+    latest_stable_version: 1.1
     local_header_img: /images/cloud_rings.png
     local_header_title: VMware Tanzu™ SQL with MySQL for Kubernetes
     local_header_links: []
