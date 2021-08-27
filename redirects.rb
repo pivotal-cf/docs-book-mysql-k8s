@@ -12,5 +12,5 @@ r301 '/tanzu-mysql-kubernetes/1-1', '/tanzu-mysql-kubernetes/1-1/index.html'
 r301 '/tanzu-mysql-kubernetes/1-1/', '/tanzu-mysql-kubernetes/1-1/index.html'
 r301 '/tanzu-mysql-kubernetes/1-0', '/tanzu-mysql-kubernetes/1-0/index.html'
 r301 '/tanzu-mysql-kubernetes/1-0/', '/tanzu-mysql-kubernetes/1-0/index.html'
-
+r301 '/', '/tanzu-mysql-kubernetes/1-1/index.html'
 
