@@ -13,20 +13,20 @@ elastic_search: true
 
 common_header: &mysql_common
     use_local_header: true
-    latest_stable_version: 1.0
+    latest_stable_version: 1.1
     local_header_img: /images/cloud_rings.png
     local_header_title: VMware Tanzu™ SQL with MySQL for Kubernetes
     local_header_links: []
 
     local_header_version_list:
        - url_prefix: /tanzu-mysql-kubernetes/1-1/
-         display_name: v1.1
+         display_name: v1.2
 
-mysql4k8s_header: &mysql4k8s_111
+mysql4k8s_header: &mysql4k8s_120
    <<: *mysql_common
-   search_placeholder: Tanzu MySQL for Kubernetes 1.1
+   search_placeholder: Tanzu MySQL for Kubernetes 1.2
    url_prefix: tanzu-mysql-kubernetes/1-1/
-   local_product_version: '1.1'
+   local_product_version: '1.2'
    changelog_href: /tanzu-mysql-kubernetes/1-1/release-notes.html
 
 sections:
@@ -43,6 +43,6 @@ sections:
     ref: 'main'
   directory: tanzu-mysql-kubernetes/1-1
   subnav_template: mysql_k8s_subnav_1_1.erb
-  product_info: *mysql4k8s_111
+  product_info: *mysql4k8s_120
   
   
