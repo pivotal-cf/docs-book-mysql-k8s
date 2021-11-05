@@ -13,18 +13,26 @@ elastic_search: true
 
 common_header: &mysql_common
   use_local_header: true
-  latest_stable_version: 'v1.1'
+  latest_stable_version: 'v1.2'
   local_header_title: VMware Tanzu™ SQL with MySQL for Kubernetes
   local_header_links:
     - <a href="https://network.pivotal.io/products/">Download</a>
     - <a href="https://support.pivotal.io">Ask for Help</a>
   
   local_header_version_list:
+    - url_prefix: /tanzu-mysql-kubernetes/1-2/
+      display_name: v1.2
     - url_prefix: /tanzu-mysql-kubernetes/1-1/
       display_name: v1.1
     - url_prefix: /tanzu-mysql-kubernetes/1-0/
       display_name: v1.0
 
+mysql4kubernetes_header: &mysql4kubernetes_12
+  <<: *mysql_common
+  search_placeholder: Search v1.2
+  url_prefix: tanzu-mysql-kubernetes/1-2/
+  local_product_version: '1.2'
+  changelog_href: http://docs.pivotal.io/tanzu-mysql-kubernetes/1-2/release-notes.html
 
 mysql4kubernetes_header: &mysql4kubernetes_11
   <<: *mysql_common
@@ -50,10 +58,10 @@ sections:
 
 - repository:
     name: pivotal-cf/docs-mysql-k8s
-    ref:  '1.0'
-  directory: tanzu-mysql-kubernetes/1-0
-  subnav_template: mysql_k8s_subnav_1_0.erb
-  product_info: *mysql4kubernetes_10
+    ref: '1.2'
+  directory: tanzu-mysql-kubernetes/1-2
+  subnav_template: mysql_k8s_subnav_1_2.erb
+  product_info: *mysql4kubernetes_12
 
 - repository:
     name: pivotal-cf/docs-mysql-k8s
@@ -61,5 +69,14 @@ sections:
   directory: tanzu-mysql-kubernetes/1-1
   subnav_template: mysql_k8s_subnav_1_1.erb
   product_info: *mysql4kubernetes_11
+
+- repository:
+    name: pivotal-cf/docs-mysql-k8s
+    ref:  '1.0'
+  directory: tanzu-mysql-kubernetes/1-0
+  subnav_template: mysql_k8s_subnav_1_0.erb
+  product_info: *mysql4kubernetes_10
+
+
 
 
